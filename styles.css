@@ -1,0 +1,139 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  
+  
+  body {
+    font-family: 'Helvetica Neue';
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 375px;
+    height:667px;
+    position: relative;
+    background-color: rgb(211, 195, 195);
+  }
+  
+  button {
+    width: 150px;
+    height: 55px;
+    border-radius: 3px;
+    border: solid .2px#707070;
+  }
+  
+  
+  
+
+  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem  rgba(black,.2);
+  }
+  
+  button::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+  
+  .mystyle {
+    border: greenyellow solid .5px;
+  }
+    
+  .user1 {
+    background-color: rgba(218, 218, 218, 0.932);
+    border: solid .2px#707070;
+    margin: 30px 5px 15px 0;
+  }
+  
+  
+  .user2 {
+    background-color: rgba(218, 218, 218, 0.932);
+    margin: 30px 0 15px 5px;
+  }
+  
+  
+    
+  
+  /*DROP DOWN  RESTAURANT */
+  
+  
+  
+    
+    /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+  
+  .locationSetter{
+      background-color:rgba(218, 218, 218, 0.932);
+      color: black;
+      border: none;
+      cursor: pointer;
+      width:310px;
+      margin-top:7px;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8b9bbb;
+    min-width: 310px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+    
+    /* Links inside the dropdown */
+  .dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+  }
+    
+    /* Change color of dropdown links on hover */
+  .dropdown-content li:hover {
+    background-color: rgba(218, 218, 218, 0.932);
+  }
+    /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rgba(218, 218, 218, 0.932);
+  }
+
+  .restaurantInput {
+      margin-top: 20px;
+      width:310px;
+      height: 55px;
+      border-radius: 3px;
+  }
+
+   span {
+     text-align: center;
+   }
+      i {
+    margin-left: 30px;
+    }
+
+    .whichMeal {
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  
+    .meal-radio {
+      margin-top: 10px;
+      margin-left: 45px;
+      text-align: initial;
+
+    }
